@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#Encabezados{
+    margin: 10px;
+    color: white;
+    
+}
+
+#Encabezados:hover{
+    background-color: white;
+    color: orangered
+}
+
+.titulo{
+    color: crimson;
+    text-transform: uppercase;
+}
+
+
+.card{
+    background-color: lightgoldenrodyellow;
+    margin: 30px;
+    border-width: 5px;
+    border-color: orange
+}
+
+.card img {
+        margin: 15px;
+        transition: transform .3s;
+}
+
+.card:hover {
+        transform: scale(1.2);
+}
+
+.contenedorInicio {
+    margin-block: 50px;
+}
+
+.secNomRes {
+     margin-block-start: 30px;
+     margin-block-end: 50px;
+     
+}
+
